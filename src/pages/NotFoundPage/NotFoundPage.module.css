@@ -1,0 +1,12 @@
+.notFoundPage {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.subtitle {
+  color: var(--btn);
+}

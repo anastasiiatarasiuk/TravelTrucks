@@ -1,0 +1,52 @@
+.contentContainer {
+  background-image: url("/images/bg-img@1x.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .contentContainer {
+    background-image: url("/images/bg-img@2x.webp");
+  }
+}
+.textContainer {
+  padding-top: 260px;
+  padding-left: 32px;
+  height: min-content;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67%;
+  color: var(--inputs);
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--inputs);
+  margin-bottom: 40px;
+}
+
+.viewNowBtn {
+  border-radius: 200px;
+  padding: 16px 60px;
+  background: var(--btn);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  display: inline;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.viewNowBtn:hover,
+.viewNowBtn:focus {
+  background: var(--btn-hover);
+}

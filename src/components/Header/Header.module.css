@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  gap: 450px;
+  background-color: var(--inputs);
+  padding: 28px 64px;
+  border-bottom: 1px solid var(--badges);
+}
+
+.logo {
+  font-weight: 800;
+}
+
+.logoAccent {
+  color: var(--text);
+}
