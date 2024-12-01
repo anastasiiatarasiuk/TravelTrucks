@@ -1,0 +1,108 @@
+.camperCard {
+  display: flex;
+  gap: 24px;
+  min-height: 320px;
+}
+
+.photo {
+  width: 292px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.titleCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main);
+  margin-bottom: 8px;
+}
+
+.priceCont {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cardPrice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main);
+}
+
+.locationCont {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.locationContText {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reviews {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 2px;
+  margin-right: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+}
+
+.location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+
+.showMoreBtn {
+  border-radius: 200px;
+  width: 166px;
+  height: 56px;
+  background-color: var(--btn);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.showMoreBtn:hover {
+  background-color: var(--btn-hover);
+}
+
+.iconStar {
+  stroke: none;
+  fill: var(--rating);
+}

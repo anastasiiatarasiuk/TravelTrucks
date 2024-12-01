@@ -4,6 +4,7 @@
   background-color: var(--inputs);
   padding: 28px 64px;
   border-bottom: 1px solid var(--badges);
+  width: 100vw;
 }
 
 .logo {

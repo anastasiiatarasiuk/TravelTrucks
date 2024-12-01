@@ -1,9 +1,10 @@
 import HomePageContent from "../../components/HomePageContent/HomePageContent";
+import s from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
     <>
-      <section>
+      <section className={s.container}>
         <HomePageContent />
       </section>
     </>

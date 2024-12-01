@@ -1,0 +1,132 @@
+.filtersContainer {
+  width: 360px;
+  margin: 0px 64px;
+}
+
+.locationFilterContainer {
+  margin-bottom: 40px;
+}
+
+.locationTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+.locationInputContainer {
+  display: flex;
+  align-items: center;
+  background-color: var(--inputs);
+  border-radius: 12px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.locationInput {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+  border-radius: 12px;
+  padding: 16px 20px 16px 8px;
+  background: var(--inputs);
+  border-style: none;
+  outline: none;
+  width: 360px;
+}
+
+.filterTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.equipmentFilterContainer {
+  width: 360px;
+  margin-bottom: 32px;
+}
+
+.equipmentTitle {
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+  border-bottom: 2px solid var(--gray-light);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.filterBtn {
+  max-width: 112px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  background: var(--white);
+  border-radius: 12px;
+  border: 1px solid var(--gray-light);
+  cursor: pointer;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filterBtn:hover {
+  border: 1px solid var(--btn);
+}
+.checked {
+  border: 1px solid var(--btn);
+}
+
+.icons {
+  fill: var(--main);
+}
+
+.typeTitle {
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+  border-bottom: 2px solid var(--gray-light);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.searchBtn {
+  border-radius: 200px;
+  padding: 16px 60px;
+  background: var(--btn);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.searchBtn:hover {
+  background: var(--btn-hover);
+}
