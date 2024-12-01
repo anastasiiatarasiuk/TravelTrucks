@@ -1,8 +1,22 @@
-# React + Vite
+# Travel Trucks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TravelTrucks is a web platform aimed at outdoor enthusiasts seeking modern campers that combine comfort, practicality, and style for their travels.
+The application helps users find and choose the perfect camper for their adventures.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Browse a list of available campers.
+Filter campers by location.
+Filter campers by available equipment.
+Filter campers by type.
+Add and remove campers from a favorites.
+Persist favorites list across page refreshes using localStorage.
+
+# Getting Started
+
+To run the application locally, follow these steps:
+
+Clone the repository: git clone https://github.com/anastasiiatarasiuk/TravelTrucks.git
+Install dependencies: npm install
+Run the app: npm run dev
+Open in your browser.
