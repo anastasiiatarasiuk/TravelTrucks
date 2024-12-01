@@ -5,7 +5,7 @@ export const fetchTrucksThunk = createAsyncThunk(
   "trucks/fetchAll",
   async (_, thunkAPI) => {
     try {
-      const { data } = await campersApi.get("/");
+      const { data } = await campersApi.get("/campers");
       return data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);

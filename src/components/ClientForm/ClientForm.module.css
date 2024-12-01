@@ -1,0 +1,76 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 44px;
+  width: 641px;
+}
+
+.clientTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main);
+  margin-bottom: 8px;
+}
+
+.clientText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.inputText {
+  border: none;
+  border-radius: 12px;
+  padding: 18px 18px;
+  width: 527px;
+  height: 60px;
+  background-color: var(--inputs);
+  outline: none;
+}
+
+.inputComment {
+  border: none;
+  border-radius: 12px;
+  padding: 18px 18px;
+  width: 527px;
+  height: 118px;
+  background-color: var(--inputs);
+  resize: none;
+  outline: none;
+}
+
+.sendBtn {
+  display: block;
+  border-radius: 200px;
+  width: 173px;
+  height: 56px;
+  background-color: var(--btn);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.sendBtn:hover {
+  background-color: var(--btn-hover);
+}
+
+.errorMessage {
+  color: var(--btn-hover);
+}

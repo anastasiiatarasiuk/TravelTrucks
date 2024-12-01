@@ -1,4 +1,3 @@
-// CamperCard.jsx
 import { useDispatch, useSelector } from "react-redux";
 import s from "./CamperCard.module.css";
 import sprite from "/icons/sprite.svg";
